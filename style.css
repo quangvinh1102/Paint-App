@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.tool {
+    background: rgb(90, 118, 179);
+    display: flex;
+    align-items: center;
+}
+
+.tool > * {
+    height: 40px;
+    width: 40px;
+    background: white;
+    margin: 5px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#save {
+    margin-left: auto;
+    text-align: center;
+    align-items: center;
+}
+canvas {
+    border: solid 1px black;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
